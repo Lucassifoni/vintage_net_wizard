@@ -39,6 +39,10 @@ library has an example project for the Raspberry Pi for use as a demo.
   works)
 * [ ] - Custom styling and branding
 
+## System dependencies
+
+On debian-based systems, you may need to install `libnl-genl-3-dev` and `libnl-3-dev`, or you will encounter an error during `mix deps.get` when you add `vintage_net_wizard` to your project.
+
 ## Supported WiFi adapters
 
 Not all WiFi adapters support AP mode. Here are the ones that we've used:
